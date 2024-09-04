@@ -1,21 +1,27 @@
-html, body {
-    background: #ffff99;
-    color: #000;
+/*global variables*/
+:root{
+    --pink: #ff9999;
+    --yellow: #ffff99
 }
 
-h1, p {
-    color: #000;
+html, body {
+    background: var(--yellow);
+    color: black;
 }
 
 #navbar a {
-    color: #000;
+    color: black;
+}
+
+h1, p {
+    color: black;
 }
 
 .item {
-    background: #ff9999;
+    background: var(--pink);
 }
 
 button {
-    background: #000;
-    color: #ff9999;
+    background: black;
+    color: var(--pink);
 }
