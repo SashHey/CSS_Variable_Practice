@@ -18,6 +18,8 @@ h1, p {
 }
 
 .item {
+    /*variable to override the global variable assigned to the background*/
+    --pink: #ffcc99;
     background: var(--pink);
 }
 
