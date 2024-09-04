@@ -1,5 +1,5 @@
-/*global variables to store colours*/
 :root{
+    /*global variables to store colours*/
     --pink: #ff9999;
     --yellow: #ffff99
 }
@@ -9,8 +9,12 @@ html, body {
     color: black;
 }
 
+#navbar {
+    --nav-pink: #ff9933;
+}
+
 #navbar a {
-    color: black;
+    color: var(--nav-pink);
 }
 
 h1, p {
@@ -19,11 +23,17 @@ h1, p {
 
 .item {
     /*variable to override the global variable assigned to the background*/
-    --pink: #ffcc99;
+    --item-pink: #ffcc99;
     background: var(--pink);
 }
 
 button {
     background: black;
     color: var(--pink);
+}
+
+.feature {
+    /*Setting the colour of a specific grid item to a different shade of pink*/
+    /*Local values instead of global*/
+    --pink: var(--item-pink);
 }
