@@ -8,6 +8,7 @@ html, body {
     font-size: 25px;
 }
 
+/*Displaying the navigation bar as a flexbox horizontally*/
 #navbar > ul {
     display: flex;
     justify-content: space-evenly;
@@ -21,6 +22,7 @@ h1 {
     font-size: 35px;
 }
 
+/*Creating a grid to display the content*/
 .grid {
     display: grid;
     grid-template-columns: 250px 250px;
